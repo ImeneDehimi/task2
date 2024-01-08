@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    background-color: #1ABC9C;
+}
+.container{
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(188, 188, 188, 0.311);
+}
+.title{
+    width: 100%;
+    background-color: #16A085;
+    padding: 15px;
+    color: white;
+    border-radius: 5px 5px 0 0 ;
+}
+.left{
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+.left input{
+    margin: 10px 0;
+}
+.left a {
+    float: left;
+    padding-left: 7px;
+}
+input{
+    width: 85%;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #909090b8;
+    border-left: none;
+}
+input:hover{
+    border: 1px solid #16A085;
+}
+input:focus {
+    border: 1px solid #16A085;
+    outline: none; 
+}
+input::selection {
+    background-color: #60bca9a2;
+
+}
+
+form a{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+form a:hover{
+    color: #8f8e8e;
+    transition: all ease 0.5s;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px 0 0 5px;
+    
+}
+#submit{
+    background-color: #16A085;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px ;
+    border: none;
+}
+#submit:hover{
+    background-color: #0e6251;
+    transition: all ease 1s;
+}
+p{
+    font-size: 16px;
+    margin: 20px;
+}
+p a{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+p a:hover{
+    color: #8f8e8e;
+    transition: all ease 0.5s;
+}
+
+/* #16A085 */
